@@ -1,0 +1,147 @@
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 82.875rem;
+  width: 20.4375rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media (min-width: 64em) {
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    height: 31.25rem;
+    width: 57.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.first-child {
+  background-color: #e38826;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.first-child__img {
+  background-image: url("../images/icon-sedans.svg");
+  background-repeat: no-repeat;
+  height: 2.6875rem;
+  width: 4.3125rem;
+}
+
+.first-child__cta {
+  color: #e38826;
+}
+
+.second-child {
+  background-color: #006970;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.second-child__img {
+  background-image: url("../images/icon-suvs.svg");
+  background-repeat: no-repeat;
+  height: 2.6875rem;
+  width: 4.3125rem;
+}
+
+.second-child__cta {
+  color: #006970;
+}
+
+.third-child {
+  background-color: #004241;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.third-child__img {
+  background-image: url("../images/icon-luxury.svg");
+  background-repeat: no-repeat;
+  height: 2.6875rem;
+  width: 4.3125rem;
+}
+
+.third-child__cta {
+  color: #004241;
+}
+
+.container {
+  padding-top: 3.125rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100vh;
+  height: auto;
+  background-color: #f2f2f2;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1 {
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  color: #f2f2f2;
+  font-size: 35px;
+}
+
+p {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.button {
+  background-color: #f2f2f2;
+  /* Green */
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  position: absolute;
+  margin-top: 1.875rem;
+}
+
+@media (min-width: 64em) {
+  .button {
+    position: absolute;
+    margin-top: 5.3125rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
